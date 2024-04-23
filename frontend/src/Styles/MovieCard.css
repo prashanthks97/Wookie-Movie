@@ -1,0 +1,96 @@
+.moviecard{
+    box-sizing: border-box;
+}
+.card-links{
+    margin: 5px;
+    padding: 5px;
+}
+.viewpage{
+    height: 100vh;
+}
+.card-row_poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.card-row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.card-row_poster:hover{
+    transform: scale(1.08);
+}
+
+.card-row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+.card-row_posterLarge{
+    max-height: 250px;
+    width: fit-content;
+}
+
+.card-row_posterLarge:hover{
+    transform: scale(1.09);
+}
+
+.card-row{
+    color: white;
+    margin-left: 20px;
+}
+
+.card-banner_contents{
+    margin-left: 30px;
+    padding-top: 300px;
+    height: 190px;
+}
+
+.card-banner_title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 0.3rem;
+}
+
+.card-banner_description{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size:360;
+    height: 180px;
+}
+
+.card-banner_button{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    margin-top: 5px;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.card-banner_button:hover{
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+/* .card-banner_fadeBottom{
+    margin-top: 145px;
+    height: 7.4rem;
+} */
+
+
+
